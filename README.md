@@ -6,7 +6,7 @@ BusEase is a modern web-based platform designed to simplify and digitize the pro
 
 - Route search by source, destination, and travel date
 - **Multileg route search** (suggests shortest combinations of buses if no direct route is found)
-- Real-time seat availability via Socket.IO
+- Real-time seat availability
 - Interactive seat layout with selection
 - Secure online payment integration (Stripe)
 - Booking confirmation via email (ticket)
