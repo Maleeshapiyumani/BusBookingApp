@@ -5,7 +5,7 @@ BusEase is a modern web-based platform designed to simplify and digitize the pro
  ### User Side
 
 - Route search by source, destination, and travel date
-- **Multileg route search** (suggests shortest combinations of buses if no direct route is found)
+- *Multileg route search* (suggests shortest combinations of buses if no direct route is found)
 - Real-time seat availability
 - Interactive seat layout with selection
 - Secure online payment integration (Stripe)
@@ -33,28 +33,35 @@ BusEase is a modern web-based platform designed to simplify and digitize the pro
 git clone https://github.com/Yasas2000/BusBookingApp.git
 cd BusBookingApp
 
-1. Frontend Setup
+2. Frontend Setup
+```bash
 cd Frontend
 npm install
+
 
 Create a .env file in /Frontend with the following variables:
 
 for front end env
-
+bash
 VITE_APP_API_PROTOCOL=http
 VITE_APP_API_HOST=localhost
 VITE_APP_API_PORT=4000
 
-Then run: npm start
+Then run: 
+bash
+npm run dev
+
 
 2. Backend Setup
+bash
 cd ../Backend
 npm install
+
 
 Create a .env file in /Backend with the following variables:
 
 for back end env
-
+bash
 MONGO_URI = 
 JWT_SECRET = 
 REFRESH_SECRET = 
@@ -66,9 +73,12 @@ TICKET_IMAGE = https://www.shutterstock.com/image-vector/bus-ticketpublic-transp
 EMAIL_USER=
 EMAIL_PASSWORD=
 
-Run the backend:
-  npm start
 
+Run the backend:
+bash
+  npm run dev
+
+```bash
 #keys and secrets you have to use tour own ones
 
 •Use this for testing:
@@ -110,4 +120,4 @@ Supervisor: Dr. Shafraz
 ## 📄 License
 
 This project was developed as a final-year academic submission at NSBM Green University.  
-It is intended for **educational and evaluation purposes only** and is **not licensed for commercial use**.
+It is intended for *educational and evaluation purposes only* and is *not licensed for commercial use*.
