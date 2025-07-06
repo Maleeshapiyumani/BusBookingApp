@@ -30,7 +30,7 @@ BusEase is a modern web-based platform designed to simplify and digitize the pro
 
  1. Clone the Repository
 ```bash
-git clone https://github.com/Yasas2000/BusBookingApp.git
+git clone https://github.com/Maleeshapiyumani/BusBookingApp.git
 cd BusBookingApp
 
 2. Frontend Setup
